@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #302b63;
+  /* background: linear-gradient(to top, #0f0c29, #302b63, #24243e); */
+}
+
+img {
+  width: 10vw;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+}
+
+.input_video{
+  display: none;
+}
+
+.output_canvas{
+  display: block;
+  margin: auto;
+  width: 70%;
+  object-fit: contain;
+  border: 5px double #24243e;
+}
+
+/* @media (max-width: 1400px) or (max-height: 847px){
+  .output_canvas{
+    width: 854px;
+    height: 480px;
+  }
+}
+
+@media (max-width: 900px) or (max-height: 600px){
+  .output_canvas{
+    width: 640px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 680px) or (max-height: 490px){
+  .output_canvas{
+    width: 426px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 440px) or (max-height: 380px){
+  .output_canvas{
+    width: 320px;
+    height: 180px;
+  }
+} */
+
+@media (max-width: 800px) {
+  #logo {
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  #logo {
+    width: 100%;
+  }
+}
