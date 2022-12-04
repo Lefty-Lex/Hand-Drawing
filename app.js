@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 31500)
 
 var server = app.listen(app.get('port'), () => {
   debug('Express server listening on port ' + server.address().port)
